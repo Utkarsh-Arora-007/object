@@ -38,6 +38,7 @@ Today a disabled person is unable to browse and identify nearby locations having
 <li> Crowd funding to help the disabled person if he need any financial assistance</li>
       <li> Text to speech for DUMB people </li>
 <li> "Actions" to help Dumb people for communication </li>
+      <li> "Explore New Opportunities" to discover running goverment policies for disabled people <li>
    </ul> 
   </a>
 
