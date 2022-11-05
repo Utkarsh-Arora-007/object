@@ -47,8 +47,8 @@ Today a disabled person is unable to browse and identify nearby locations having
    <img align="right" width="100" height="100" src="https://github.com/Shailly0502/Tech-Diwane/blob/c782ca5a86027019f1d2ae484e0fdac4afe6c1e3/howtousecode.jpg"> 
    <ul> 
       <li> Install it in your phone <br>
-         <i> For Blind people just shake mobile phone to open app </i><br>
-            <i>For other disabled person use it as normal app </i></li> </ul>
+         <i> * For Blind people just shake mobile phone to open app. </i><br>
+            <i> * For other disabled person use it as normal app. </i></li> </ul>
 
 </a>
 
