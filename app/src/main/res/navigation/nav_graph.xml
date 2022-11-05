@@ -31,6 +31,9 @@
         <action
             android:id="@+id/action_homeFragment_to_libraryFragment"
             app:destination="@id/libraryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_banksFragment"
+            app:destination="@id/banksFragment" />
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
@@ -61,4 +64,8 @@
         android:id="@+id/libraryFragment"
         android:name="com.google.mlkit.vision.demo.fragments.LibraryFragment"
         android:label="LibraryFragment" />
+    <fragment
+        android:id="@+id/banksFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.BanksFragment"
+        android:label="BanksFragment" />
 </navigation>

@@ -67,5 +67,8 @@ class HomeFragment : Fragment() {
         binding.librarycard.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_libraryFragment)
         }
+        binding.bankscard.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_banksFragment)
+        }
     }
 }
