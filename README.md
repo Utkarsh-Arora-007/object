@@ -7,7 +7,7 @@
 <ul>  
    <li> <a href="#11"> Provided Problem Statement(Automated Cheque Processing) </a> </li>
    <li> <a href="#12"> Quick Fix By Us </a> </li>
-   <li> Proposed Solution </li>
+<!--    <li> Proposed Solution </li> -->
 <!--    <li> <a href="#1"> Demo Vedio </a> </li -->
    <li>  Workflow </li>
    <ul>
