@@ -33,13 +33,11 @@ Today a disabled person is unable to browse and identify nearby locations having
 
    <img align="right" width="100" height="100" src="https://github.com/Shailly0502/Tech-Diwane/blob/c782ca5a86027019f1d2ae484e0fdac4afe6c1e3/features.webp">  
    <ul> <li> Object Detection and Avoidance System for the **Blind people**</li>
-   <li>  <i> **Nearby** **location** and **Locate me** for a disabled person</i> </li>
-      <li> **Help-Desk** for a disabled person if any volunteer is available in nearby location</li>
-<li> **Crowd funding** to help the disabled person if he need any financial assistance</li>
-      <li> **Text to speech** for **DUMB** people </li>
-<li> Reduce Human Efforts <i> (By automating process of verification and data updation after processing)</i> </li>
-<li> Reduce Processing time <i>(Machine take less time than humans so it fastens the cheque processing time )</i> </li>
-<li> Detecting Potential Frauds <i>(Through verification processing).</i> </li>
+   <li>  <i> Nearby location and Locate me for a disabled person</i> </li>
+      <li> Help-Desk for a disabled person if any volunteer is available in nearby location</li>
+<li> Crowd funding to help the disabled person if he need any financial assistance</li>
+      <li> Text to speech for DUMB people </li>
+<li> "Actions" to help Dumb people for communication </li>
    </ul> 
   </a>
 
