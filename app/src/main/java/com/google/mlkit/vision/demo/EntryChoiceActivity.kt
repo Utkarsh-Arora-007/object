@@ -34,23 +34,15 @@ class EntryChoiceActivity : AppCompatActivity(), ActivityCompat.OnRequestPermiss
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_vision_entry_choice)
-
-    findViewById<TextView>(R.id.java_entry_point).setOnClickListener {
-      val intent = Intent(this@EntryChoiceActivity, ChooserActivity::class.java)
-      startActivity(intent)
-    }
-
-    findViewById<TextView>(R.id.kotlin_entry_point).setOnClickListener {
+    if (!allRuntimePermissionsGranted()) {
+      getRuntimePermissions()
+    }else{
       val intent =
         Intent(
           this@EntryChoiceActivity,
-          com.google.mlkit.vision.demo.kotlin.ChooserActivity::class.java
+          MainActivity::class.java
         )
       startActivity(intent)
-    }
-
-    if (!allRuntimePermissionsGranted()) {
-      getRuntimePermissions()
     }
   }
 
@@ -62,6 +54,12 @@ class EntryChoiceActivity : AppCompatActivity(), ActivityCompat.OnRequestPermiss
         }
       }
     }
+    val intent =
+      Intent(
+        this@EntryChoiceActivity,
+        MainActivity::class.java
+      )
+    startActivity(intent)
     return true
   }
 
@@ -87,6 +85,12 @@ class EntryChoiceActivity : AppCompatActivity(), ActivityCompat.OnRequestPermiss
   private fun isPermissionGranted(context: Context, permission: String): Boolean {
     if (ContextCompat.checkSelfPermission(context, permission) == PackageManager.PERMISSION_GRANTED
     ) {
+      val intent =
+        Intent(
+          this@EntryChoiceActivity,
+          MainActivity::class.java
+        )
+      startActivity(intent)
       Log.i(TAG, "Permission granted: $permission")
       return true
     }

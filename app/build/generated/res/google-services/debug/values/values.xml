@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">561746495802-b0qjui2239m1ra1j6rrun2t007lvtk98.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://helpu-c61b9-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">561746495802</string>
+    <string name="google_api_key" translatable="false">AIzaSyBH96ihMwsBGpYQFcEdeZuaM7zv7bWHsaA</string>
+    <string name="google_app_id" translatable="false">1:561746495802:android:f09e077462af0e9fa8e803</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBH96ihMwsBGpYQFcEdeZuaM7zv7bWHsaA</string>
+    <string name="google_storage_bucket" translatable="false">helpu-c61b9.appspot.com</string>
+    <string name="project_id" translatable="false">helpu-c61b9</string>
+</resources>

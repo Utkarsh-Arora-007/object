@@ -20,8 +20,8 @@ import android.content.Intent
 import android.content.res.Configuration
 import android.os.Build.VERSION_CODES
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.speech.tts.TextToSpeech
-import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
 import android.util.Size
 import android.widget.CompoundButton
@@ -29,6 +29,7 @@ import android.widget.ImageView
 import android.widget.Toast
 import android.widget.ToggleButton
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.view.PreviewView
 import com.google.android.gms.common.annotation.KeepName
 import com.google.mlkit.common.model.LocalModel
@@ -47,7 +48,7 @@ import com.google.mlkit.vision.objects.ObjectDetection
 import com.google.mlkit.vision.objects.ObjectDetector
 import com.google.mlkit.vision.objects.custom.CustomObjectDetectorOptions
 import java.util.*
-import kotlin.collections.List
+
 
 /** Live preview demo app for ML Kit APIs using CameraXSource API. */
 @KeepName
@@ -132,19 +133,33 @@ class CameraXSourceDemoActivity : AppCompatActivity(), CompoundButton.OnCheckedC
         getApplicationContext(),
         localModel
       )
+    val set2 = mutableSetOf<String>()
+    var str = ""
     val objectDetector: ObjectDetector = ObjectDetection.getClient(customObjectDetectorOptions!!)
     var detectionTaskCallback: DetectionTaskCallback<List<DetectedObject>> =
       DetectionTaskCallback<List<DetectedObject>> { detectionTask ->
         detectionTask
           .addOnSuccessListener { results ->
             onDetectionTaskSuccess(results)
-            for(i in results){
-              for (l in i.labels){
-                Log.e("NAMES",l.text.toString()) // speak aloud here.
-                speakOut(l.text.toString())
-
+            object : CountDownTimer(500, 500) {
+              override fun onTick(millisUntilFinished: Long) {
+//                    mTextField.setText("seconds remaining: " + millisUntilFinished / 1000)
+                str=""
               }
-            }
+
+              override fun onFinish() {
+                for(i in results){
+                  for (l in i.labels){
+                    Log.e("NAMES",l.text.toString()) // speak aloud here.
+//                set2.add(l.text.toString())
+                    speakOut(str)
+                    str = l.text.toString()
+
+                  }
+                }
+//                    mTextField.setText("done!")
+              }
+            }.start()
 
           }
           .addOnFailureListener { e -> onDetectionTaskFailure(e) }

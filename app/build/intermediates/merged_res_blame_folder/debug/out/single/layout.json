@@ -1,10 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-54:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-57:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_text_writer.xml",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_text_writer.xml"
     },
     {
-        "merged": "com.google.mlkit.vision.demo.app-mergeDebugResources-54:/layout/fragment_home.xml",
-        "source": "com.google.mlkit.vision.demo.app-main-57:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_help_desk.xml",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_help_desk.xml"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_action.xml",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "com.google.mlkit.vision.demo.app-mergeDebugResources-64:/layout/fragment_malls.xml",
+        "source": "com.google.mlkit.vision.demo.app-main-67:/layout/fragment_malls.xml"
     }
 ]

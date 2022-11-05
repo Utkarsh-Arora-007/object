@@ -9,5 +9,49 @@
         android:id="@+id/homeFragment"
         android:name="com.google.mlkit.vision.demo.fragments.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_helpDeskFragment"
+            app:destination="@id/helpDeskFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_textWriterFragment"
+            app:destination="@id/textWriterFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_actionFragment"
+            app:destination="@id/actionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mallsFragment"
+            app:destination="@id/mallsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_hospitalsFragment"
+            app:destination="@id/hospitalsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.MapFragment"
+        android:label="MapFragment" />
+    <fragment
+        android:id="@+id/helpDeskFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.HelpDeskFragment"
+        android:label="HelpDeskFragment" />
+    <fragment
+        android:id="@+id/textWriterFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.TextWriterFragment"
+        android:label="TextWriterFragment" />
+    <fragment
+        android:id="@+id/actionFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.ActionFragment"
+        android:label="ActionFragment" />
+    <fragment
+        android:id="@+id/mallsFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.MallsFragment"
+        android:label="fragment_malls"
+        tools:layout="@layout/fragment_malls" />
+    <fragment
+        android:id="@+id/hospitalsFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.HospitalsFragment"
+        android:label="HospitalsFragment" />
 </navigation>
