@@ -28,7 +28,7 @@ Today a disabled person is unable to browse and identify nearby locations having
 
 # Quick Fix By Us <a id="12">
 
- Using Android, Firebase, Kotlin, Machine learning, OpenCV we have developed an app named as SHAYAK for disabeled people. 
+ Using Android, Firebase, Kotlin, Machine learning, OpenCV we have developed an app named as *SHAYAK* for disabeled people. 
 </a>
 
 # Proposed Solution
