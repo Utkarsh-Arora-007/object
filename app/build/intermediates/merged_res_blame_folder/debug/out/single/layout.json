@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-54:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-57:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "com.google.mlkit.vision.demo.app-mergeDebugResources-54:/layout/fragment_home.xml",
+        "source": "com.google.mlkit.vision.demo.app-main-57:/layout/fragment_home.xml"
+    }
+]

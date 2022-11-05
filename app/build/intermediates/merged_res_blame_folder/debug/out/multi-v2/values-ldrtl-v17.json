@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\vision\\vision-quickstart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+            "outputFile": "com.google.mlkit.vision.demo.app-mergeDebugResources-53:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\enduangi\\.gradle\\caches\\transforms-3\\28294d5fc7ebd60e6a587aa8aba98cb2\\transformed\\material-1.4.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\enduangi\\.gradle\\caches\\transforms-3\\aba9041b3539d84e293e92148393de0f\\transformed\\material-1.4.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

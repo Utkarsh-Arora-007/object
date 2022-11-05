@@ -65,6 +65,9 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
 array pref_entries_face_detector_classification_mode
 array pref_entries_face_detector_contour_mode
 array pref_entries_face_detector_landmark_mode
@@ -77,6 +80,7 @@ array pref_entry_values_face_detector_landmark_mode
 array pref_entry_values_face_detector_performance_mode
 array pref_entry_values_face_mesh_use_case
 array pref_entry_values_pose_detector_performance_mode
+array preloaded_fonts
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -96,6 +100,7 @@ attr actionMenuTextAppearance
 attr actionMenuTextColor
 attr actionModeBackground
 attr actionModeCloseButtonStyle
+attr actionModeCloseContentDescription
 attr actionModeCloseDrawable
 attr actionModeCopyDrawable
 attr actionModeCutDrawable
@@ -106,6 +111,7 @@ attr actionModeSelectAllDrawable
 attr actionModeShareDrawable
 attr actionModeSplitBackground
 attr actionModeStyle
+attr actionModeTheme
 attr actionModeWebSearchDrawable
 attr actionOverflowButtonStyle
 attr actionOverflowMenuStyle
@@ -640,6 +646,24 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr lottieAnimationViewStyle
+attr lottie_autoPlay
+attr lottie_cacheComposition
+attr lottie_clipToCompositionBounds
+attr lottie_colorFilter
+attr lottie_enableMergePathsForKitKatAndAbove
+attr lottie_fallbackRes
+attr lottie_fileName
+attr lottie_ignoreDisabledSystemAnimations
+attr lottie_imageAssetsFolder
+attr lottie_loop
+attr lottie_progress
+attr lottie_rawRes
+attr lottie_renderMode
+attr lottie_repeatCount
+attr lottie_repeatMode
+attr lottie_speed
+attr lottie_url
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -1035,7 +1059,6 @@ attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
 bool abc_action_bar_embed_tabs
-bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
 bool enable_system_alarm_service_default
 bool enable_system_foreground_service_default
@@ -1075,6 +1098,10 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color basic
+color basic_dark
+color basic_light
+color black
 color blue
 color blue_grey_400
 color bright_foreground_disabled_material_dark
@@ -1250,6 +1277,9 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple_200
+color purple_500
+color purple_700
 color radiobutton_themeable_attribute_color
 color red
 color ripple_material_dark
@@ -1264,6 +1294,8 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color teal_200
+color teal_700
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
@@ -1328,6 +1360,9 @@ dimen abc_search_view_preferred_width
 dimen abc_seekbar_track_background_height_material
 dimen abc_seekbar_track_progress_height_material
 dimen abc_select_dialog_padding_start_material
+dimen abc_star_big
+dimen abc_star_medium
+dimen abc_star_small
 dimen abc_switch_padding
 dimen abc_text_size_body_1_material
 dimen abc_text_size_body_2_material
@@ -1726,12 +1761,6 @@ drawable abc_ic_menu_paste_mtrl_am_alpha
 drawable abc_ic_menu_selectall_mtrl_alpha
 drawable abc_ic_menu_share_mtrl_alpha
 drawable abc_ic_search_api_material
-drawable abc_ic_star_black_16dp
-drawable abc_ic_star_black_36dp
-drawable abc_ic_star_black_48dp
-drawable abc_ic_star_half_black_16dp
-drawable abc_ic_star_half_black_36dp
-drawable abc_ic_star_half_black_48dp
 drawable abc_ic_voice_search_api_material
 drawable abc_item_background_holo_dark
 drawable abc_item_background_holo_light
@@ -1762,25 +1791,31 @@ drawable abc_seekbar_tick_mark_material
 drawable abc_seekbar_track_material
 drawable abc_spinner_mtrl_am_alpha
 drawable abc_spinner_textfield_background_material
+drawable abc_star_black_48dp
+drawable abc_star_half_black_48dp
 drawable abc_switch_thumb_material
 drawable abc_switch_track_mtrl_alpha
 drawable abc_tab_indicator_material
 drawable abc_tab_indicator_mtrl_alpha
 drawable abc_text_cursor_material
-drawable abc_text_select_handle_left_mtrl_dark
-drawable abc_text_select_handle_left_mtrl_light
-drawable abc_text_select_handle_middle_mtrl_dark
-drawable abc_text_select_handle_middle_mtrl_light
-drawable abc_text_select_handle_right_mtrl_dark
-drawable abc_text_select_handle_right_mtrl_light
+drawable abc_text_select_handle_left_mtrl
+drawable abc_text_select_handle_middle_mtrl
+drawable abc_text_select_handle_right_mtrl
 drawable abc_textfield_activated_mtrl_alpha
 drawable abc_textfield_default_mtrl_alpha
 drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable actions
+drawable active
+drawable assist
 drawable avd_hide_password
 drawable avd_show_password
+drawable bank
+drawable bell
+drawable bluecard
+drawable blueeey
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1789,6 +1824,9 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable checklist
+drawable cinema
+drawable circular_background
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1808,15 +1846,37 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable couple
+drawable cyancard
+drawable delete
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable disabled
+drawable dnd
+drawable food
+drawable go
+drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable great_job
+drawable hello
+drawable help
+drawable helper
+drawable helppp
+drawable helpy
+drawable hospital
+drawable hungry
+drawable ic_baseline_health_and_safety_24
+drawable ic_baseline_login_24
+drawable ic_baseline_notifications_active_24
+drawable ic_baseline_share_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1824,8 +1884,17 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_settings_white_24dp
 drawable ic_switch_camera_white_48dp
 drawable ic_switch_camera_white_48dp_inset
+drawable img
+drawable img_1
+drawable india
+drawable library
+drawable like
 drawable list_item_background
+drawable location
+drawable login_background
 drawable logo_mlkit
+drawable love
+drawable mall
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1836,6 +1905,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menu
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1846,7 +1916,11 @@ drawable mtrl_navigation_bar_item_background
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable mybell
+drawable navigation
 drawable navigation_empty_icon
+drawable notice_background
+drawable notification
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1858,10 +1932,38 @@ drawable notification_icon_background
 drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
+drawable notificationbell
 drawable notify_panel_notification_icon_bg
+drawable otp_block
+drawable peace
+drawable pinkcard
+drawable placeholder
+drawable pleasego
+drawable redcard
+drawable restaurant
+drawable restro
+drawable shield
+drawable side_nav_bar
+drawable sleep
+drawable speaker
+drawable support
+drawable taskevaluation
 drawable test_custom_background
+drawable thing
+drawable todo
+drawable toilets
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable undo
+drawable video
+drawable wash
+drawable water_bottle
+drawable wheelchair
+drawable whitecard
+font cairo_bold
+font poppins
+font poppins_black
+font poppins_bold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1928,6 +2030,7 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id actions_text_to_speech
 id activity_chooser_view_content
 id add
 id adjust_height
@@ -1946,12 +2049,17 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id automatic
 id back
+id bank
+id bankscard
 id barrier
 id baseline
+id bb
 id beginOnFirstDraw
 id beginning
 id blocking
+id bookaservicetxt
 id bottom
 id bounce
 id buttonPanel
@@ -1986,10 +2094,13 @@ id control2
 id coordinator
 id cos
 id counterclockwise
+id crutches
+id crutchy
 id custom
 id customPanel
 id cut
 id dark
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2010,6 +2121,7 @@ id disableHome
 id disablePostScroll
 id disableScroll
 id disjoint
+id donatecard
 id dragDown
 id dragEnd
 id dragLeft
@@ -2047,10 +2159,12 @@ id fixed
 id flip
 id floating
 id forever
+id fragmentContainerView
 id fragment_container_view_tag
 id front
 id ghost_view
 id ghost_view_holder
+id goi_explore
 id gone
 id graph
 id graph_wrap
@@ -2059,11 +2173,19 @@ id group_divider
 id grouping
 id groups
 id guideline
+id hardware
 id header_title
+id help
+id help1
+id helper
+id helpuuu
 id hideable
 id home
 id homeAsUp
+id homeFragment
 id honorRequest
+id hospital
+id hospitalscard
 id icon
 id icon_group
 id icon_only
@@ -2085,14 +2207,22 @@ id labeled
 id layout
 id left
 id leftToRight
+id library
+id librarycard
 id light
 id line1
 id line3
 id linear
 id listMode
 id list_item
+id loc1
 id locale
+id locatenow
+id lottie_layer_name
+id lottiee
 id ltr
+id mall
+id mallcard
 id masked
 id material_clock_display
 id material_clock_face
@@ -2113,6 +2243,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id menuy
 id message
 id middle
 id mini
@@ -2149,12 +2280,14 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
+id nav_graph
 id nav_host_fragment_container
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
+id nearrr
 id never
 id noScroll
 id none
@@ -2162,9 +2295,11 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id notificationbellllll
 id off
 id on
-id opendetection
+id onAttachStateChangeListener
+id onDateChanged
 id outline
 id outward
 id packed
@@ -2181,6 +2316,7 @@ id percent
 id pin
 id position
 id postLayout
+id pp
 id preview
 id preview_view
 id progress_circular
@@ -2188,6 +2324,10 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id restart
+id restaurant
+id restaurantcard
+id reverse
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2238,6 +2378,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id software
 id spacer
 id special_effects_controller_view_tag
 id spinner
@@ -2249,6 +2390,7 @@ id square
 id src_atop
 id src_in
 id src_over
+id ss
 id standard
 id start
 id startHorizontal
@@ -2258,6 +2400,8 @@ id staticLayout
 id staticPostLayout
 id stop
 id stretch
+id stucked
+id stucktxt
 id submenuarrow
 id submit_area
 id tabMode
@@ -2287,9 +2431,11 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_to_speech
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2301,6 +2447,8 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toiletcard
+id toilety
 id top
 id topPanel
 id touch_outside
@@ -2312,6 +2460,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tt1
+id tt2
 id unchecked
 id uniform
 id unlabeled
@@ -2325,11 +2475,16 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id welcometxt
+id wheelchairimg
+id wheely
 id wide
 id withText
 id withinBounds
 id wrap
 id wrap_content
+id xyz
+id xyzq
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -2424,6 +2579,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2497,7 +2653,14 @@ layout text_view_without_line_height
 layout toggle_style
 menu camera_button_menu
 mipmap ic_launcher
+navigation nav_graph
 plurals mtrl_badge_content_description
+raw addhelplottie
+raw crowdfunding
+raw helping
+raw password
+raw registration
+raw savingmoney
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2564,6 +2727,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -3481,7 +3645,7 @@ styleable AppCompatImageView android_src srcCompat tint tintMode
 styleable AppCompatSeekBar android_thumb tickMark tickMarkTint tickMarkTintMode
 styleable AppCompatTextHelper android_textAppearance android_drawableTop android_drawableBottom android_drawableLeft android_drawableRight android_drawableStart android_drawableEnd
 styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType drawableBottomCompat drawableEndCompat drawableLeftCompat drawableRightCompat drawableStartCompat drawableTint drawableTintMode drawableTopCompat firstBaselineToTopHeight fontFamily fontVariationSettings lastBaselineToBottomHeight lineHeight textAllCaps textLocale
-styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogCornerRadius dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listChoiceIndicatorMultipleAnimated listChoiceIndicatorSingleAnimated listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingEnd listPreferredItemPaddingLeft listPreferredItemPaddingRight listPreferredItemPaddingStart panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
+styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseContentDescription actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeTheme actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogCornerRadius dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listChoiceIndicatorMultipleAnimated listChoiceIndicatorSingleAnimated listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingEnd listPreferredItemPaddingLeft listPreferredItemPaddingRight listPreferredItemPaddingStart panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
 styleable Badge backgroundColor badgeGravity badgeTextColor horizontalOffset maxCharacterCount number verticalOffset
 styleable BaseProgressIndicator android_indeterminate hideAnimationBehavior indicatorColor minHideDelay showAnimationBehavior showDelay trackColor trackCornerRadius trackThickness
 styleable BottomAppBar backgroundTint elevation fabAlignmentMode fabAnimationMode fabCradleMargin fabCradleRoundedCornerRadius fabCradleVerticalOffset hideOnScroll paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
@@ -3539,6 +3703,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_clipToCompositionBounds lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_ignoreDisabledSystemAnimations lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_speed lottie_url
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\vision\\vision-quickstart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "com.google.mlkit.vision.demo.app-mergeDebugResources-53:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\enduangi\\.gradle\\caches\\transforms-3\\28294d5fc7ebd60e6a587aa8aba98cb2\\transformed\\material-1.4.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\enduangi\\.gradle\\caches\\transforms-3\\aba9041b3539d84e293e92148393de0f\\transformed\\material-1.4.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\enduangi\\.gradle\\caches\\transforms-3\\4f1c560e82125ca5c25836762262f807\\transformed\\appcompat-1.2.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\enduangi\\.gradle\\caches\\transforms-3\\e5f50828f50e60cc48687b0d53a9b4ef\\transformed\\appcompat-1.3.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -26,10 +26,10 @@
                     "to": {
                         "startLines": "10,11,12,16",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "755,830,917,1147",
+                        "startOffsets": "755,830,917,1097",
                         "endLines": "10,11,15,19",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "825,912,1142,1384"
+                        "endOffsets": "825,912,1092,1284"
                     }
                 }
             ]

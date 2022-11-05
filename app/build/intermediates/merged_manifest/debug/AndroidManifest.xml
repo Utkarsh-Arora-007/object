@@ -68,6 +68,9 @@
         <meta-data
             android:name="com.google.mlkit.vision.DEPENDENCIES"
             android:value="barcode,face,ocr,ica,custom_ica" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity
             android:name="com.google.mlkit.vision.demo.EntryChoiceActivity"
@@ -211,6 +214,9 @@
             <meta-data
                 android:name="androidx.work.WorkManagerInitializer"
                 android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
         </provider>
 
         <service
@@ -326,12 +332,6 @@
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:directBootAware="true"
             android:exported="false" />
-
-        <provider
-            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.google.mlkit.vision.demo.lifecycle-process"
-            android:exported="false"
-            android:multiprocess="true" />
     </application>
 
 </manifest>
