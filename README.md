@@ -32,8 +32,8 @@ Today a disabled person is unable to browse and identify nearby locations having
 ## Features <a id="8">
 
    <img align="right" width="100" height="100" src="https://github.com/Shailly0502/Tech-Diwane/blob/c782ca5a86027019f1d2ae484e0fdac4afe6c1e3/features.webp">  
-   <ul> <li> Object Detection and Avoidance System for the **Blind people**</li>
-   <li>  <i> Nearby location and Locate me for a disabled person</i> </li>
+   <ul> <li> Object Detection and Avoidance System for the Blind people</li>
+   <li>  Nearby location and Locate me for a disabled person</li>
       <li> Help-Desk for a disabled person if any volunteer is available in nearby location</li>
 <li> Crowd funding to help the disabled person if he need any financial assistance</li>
       <li> Text to speech for DUMB people </li>
