@@ -77,6 +77,8 @@ class HomeFragment : Fragment() {
         binding.toiletcard.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_toiletsFragment)
         }
-
+        binding.help.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_addHelpFragment)
+        }
     }
 }

@@ -40,6 +40,9 @@
         <action
             android:id="@+id/action_homeFragment_to_toiletsFragment"
             app:destination="@id/toiletsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addHelpFragment"
+            app:destination="@id/addHelpFragment" />
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
@@ -82,4 +85,8 @@
         android:id="@+id/toiletsFragment"
         android:name="com.google.mlkit.vision.demo.fragments.ToiletsFragment"
         android:label="ToiletsFragment" />
+    <fragment
+        android:id="@+id/addHelpFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.AddHelpFragment"
+        android:label="AddHelpFragment" />
 </navigation>

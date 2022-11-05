@@ -90,7 +90,17 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="action_homeFragment_to_restroFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_homeFragment_to_textWriterFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_homeFragment_to_toiletsFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -167,6 +177,18 @@
                           <Point>
                             <option name="x" value="-62" />
                             <option name="y" value="-137" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="toiletsFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-922" />
+                            <option name="y" value="-144" />
                           </Point>
                         </option>
                       </LayoutPositions>

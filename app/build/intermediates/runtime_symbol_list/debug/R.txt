@@ -2786,6 +2786,7 @@ int id action_container 0x7f0a0047
 int id action_context_bar 0x7f0a0048
 int id action_divider 0x7f0a0049
 int id action_homeFragment_to_actionFragment 0x7f0a004a
+int id action_homeFragment_to_addHelpFragment 0x7f0a027e
 int id action_homeFragment_to_banksFragment 0x7f0a0275
 int id action_homeFragment_to_helpDeskFragment 0x7f0a004b
 int id action_homeFragment_to_hospitalsFragment 0x7f0a026f
@@ -2806,6 +2807,7 @@ int id actions 0x7f0a0055
 int id actions_text_to_speech 0x7f0a0056
 int id activity_chooser_view_content 0x7f0a0057
 int id add 0x7f0a0058
+int id addHelpFragment 0x7f0a027f
 int id addr_edittext 0x7f0a0059
 int id adjust_height 0x7f0a005a
 int id adjust_width 0x7f0a005b
@@ -2983,6 +2985,8 @@ int id graph 0x7f0a0103
 int id graph_wrap 0x7f0a0104
 int id graphic_overlay 0x7f0a0105
 int id grayscale 0x7f0a0106
+int id grievanceDescription 0x7f0a0280
+int id grievanceTitle 0x7f0a0281
 int id group_divider 0x7f0a0107
 int id grouping 0x7f0a0108
 int id groups 0x7f0a0109
@@ -2991,6 +2995,7 @@ int id h1 0x7f0a0266
 int id hardware 0x7f0a010b
 int id hea 0x7f0a010c
 int id header_title 0x7f0a010d
+int id heading_txt 0x7f0a0282
 int id help 0x7f0a010e
 int id help1 0x7f0a010f
 int id helpDeskFragment 0x7f0a0110
@@ -3040,6 +3045,7 @@ int id linear 0x7f0a0137
 int id listMode 0x7f0a0138
 int id list_item 0x7f0a0139
 int id ll_loader 0x7f0a013a
+int id loadinglottie1 0x7f0a0283
 int id loc1 0x7f0a013b
 int id locale 0x7f0a013c
 int id locatenow 0x7f0a013d
@@ -3216,6 +3222,7 @@ int id select_images_from_local 0x7f0a01dd
 int id selected 0x7f0a01de
 int id selectionDetails 0x7f0a01df
 int id selection_type 0x7f0a01e0
+int id sendHelp 0x7f0a0284
 int id settings_button 0x7f0a01e1
 int id settings_container 0x7f0a01e2
 int id shortcut 0x7f0a01e3
@@ -3285,12 +3292,14 @@ int id test_radiobutton_app_button_tint 0x7f0a0222
 int id text 0x7f0a0223
 int id text2 0x7f0a0224
 int id textEnd 0x7f0a0225
+int id textField 0x7f0a0285
 int id textSpacerNoButtons 0x7f0a0226
 int id textSpacerNoTitle 0x7f0a0227
 int id textStart 0x7f0a0228
 int id textTop 0x7f0a0229
 int id textWatcher 0x7f0a022a
 int id textWriterFragment 0x7f0a022b
+int id text_field 0x7f0a0286
 int id text_input_end_icon 0x7f0a022c
 int id text_input_error_icon 0x7f0a022d
 int id text_input_start_icon 0x7f0a022e
@@ -3463,6 +3472,7 @@ int layout design_navigation_menu_item 0x7f0d0033
 int layout design_text_input_end_icon 0x7f0d0034
 int layout design_text_input_start_icon 0x7f0d0035
 int layout fragment_action 0x7f0d0036
+int layout fragment_add_help 0x7f0d0090
 int layout fragment_banks 0x7f0d008d
 int layout fragment_help_desk 0x7f0d0037
 int layout fragment_home 0x7f0d0038

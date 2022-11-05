@@ -2787,6 +2787,7 @@ id action_container
 id action_context_bar
 id action_divider
 id action_homeFragment_to_actionFragment
+id action_homeFragment_to_addHelpFragment
 id action_homeFragment_to_banksFragment
 id action_homeFragment_to_helpDeskFragment
 id action_homeFragment_to_hospitalsFragment
@@ -2807,6 +2808,7 @@ id actions
 id actions_text_to_speech
 id activity_chooser_view_content
 id add
+id addHelpFragment
 id addr_edittext
 id adjust_height
 id adjust_width
@@ -2984,6 +2986,8 @@ id graph
 id graph_wrap
 id graphic_overlay
 id grayscale
+id grievanceDescription
+id grievanceTitle
 id group_divider
 id grouping
 id groups
@@ -2992,6 +2996,7 @@ id h1
 id hardware
 id hea
 id header_title
+id heading_txt
 id help
 id help1
 id helpDeskFragment
@@ -3041,6 +3046,7 @@ id linear
 id listMode
 id list_item
 id ll_loader
+id loadinglottie1
 id loc1
 id locale
 id locatenow
@@ -3217,6 +3223,7 @@ id select_images_from_local
 id selected
 id selectionDetails
 id selection_type
+id sendHelp
 id settings_button
 id settings_container
 id shortcut
@@ -3286,12 +3293,14 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textField
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
 id textWatcher
 id textWriterFragment
+id text_field
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3464,6 +3473,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_action
+layout fragment_add_help
 layout fragment_banks
 layout fragment_help_desk
 layout fragment_home
