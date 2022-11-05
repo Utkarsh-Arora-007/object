@@ -38,18 +38,17 @@ Today a disabled person is unable to browse and identify nearby locations having
 <li> Crowd funding to help the disabled person if he need any financial assistance</li>
       <li> Text to speech for DUMB people </li>
 <li> "Actions" to help Dumb people for communication </li>
-      <li> "Explore New Opportunities" to discover running goverment policies for disabled people <li>
+      <li> "Explore New Opportunities" to get information about running goverment policies for disabled people </li>
    </ul> 
   </a>
 
-## How to use our code? <a id="9">
+## How to use our app? <a id="9">
 
    <img align="right" width="100" height="100" src="https://github.com/Shailly0502/Tech-Diwane/blob/c782ca5a86027019f1d2ae484e0fdac4afe6c1e3/howtousecode.jpg"> 
    <ul> 
-      <li> Clone this repository into your system. <br>
-         <i> git clone https://github.com/Shailly0502/bob-Tech_Diwane.git </i></li>
-      <li> After cloning, inside source folder ,compile and run all files except main.py file. </li>
-<li>  After that, run main.py file where it will ask to give path of the image of cheque on terminal so enter the path of image. </li> </ul>
+      <li> Install it in your phone <br>
+         <i> For Blind people just shake mobile phone to open app</li>
+      <li> For deaf people use hands </li> </ul>
 
 </a>
 
