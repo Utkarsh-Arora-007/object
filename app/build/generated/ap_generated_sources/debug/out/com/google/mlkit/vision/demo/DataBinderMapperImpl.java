@@ -7,13 +7,16 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.google.mlkit.vision.demo.databinding.FragmentActionBindingImpl;
+import com.google.mlkit.vision.demo.databinding.FragmentBanksBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentHelpDeskBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentHomeBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentHospitalsBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentLibraryBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentMallsBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentMapBindingImpl;
+import com.google.mlkit.vision.demo.databinding.FragmentRestroBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentTextWriterBindingImpl;
+import com.google.mlkit.vision.demo.databinding.FragmentToiletsBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -27,31 +30,40 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_FRAGMENTACTION = 1;
 
-  private static final int LAYOUT_FRAGMENTHELPDESK = 2;
+  private static final int LAYOUT_FRAGMENTBANKS = 2;
 
-  private static final int LAYOUT_FRAGMENTHOME = 3;
+  private static final int LAYOUT_FRAGMENTHELPDESK = 3;
 
-  private static final int LAYOUT_FRAGMENTHOSPITALS = 4;
+  private static final int LAYOUT_FRAGMENTHOME = 4;
 
-  private static final int LAYOUT_FRAGMENTLIBRARY = 5;
+  private static final int LAYOUT_FRAGMENTHOSPITALS = 5;
 
-  private static final int LAYOUT_FRAGMENTMALLS = 6;
+  private static final int LAYOUT_FRAGMENTLIBRARY = 6;
 
-  private static final int LAYOUT_FRAGMENTMAP = 7;
+  private static final int LAYOUT_FRAGMENTMALLS = 7;
 
-  private static final int LAYOUT_FRAGMENTTEXTWRITER = 8;
+  private static final int LAYOUT_FRAGMENTMAP = 8;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(8);
+  private static final int LAYOUT_FRAGMENTRESTRO = 9;
+
+  private static final int LAYOUT_FRAGMENTTEXTWRITER = 10;
+
+  private static final int LAYOUT_FRAGMENTTOILETS = 11;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(11);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_action, LAYOUT_FRAGMENTACTION);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_banks, LAYOUT_FRAGMENTBANKS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_help_desk, LAYOUT_FRAGMENTHELPDESK);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_home, LAYOUT_FRAGMENTHOME);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_hospitals, LAYOUT_FRAGMENTHOSPITALS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_library, LAYOUT_FRAGMENTLIBRARY);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_malls, LAYOUT_FRAGMENTMALLS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_map, LAYOUT_FRAGMENTMAP);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_restro, LAYOUT_FRAGMENTRESTRO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_text_writer, LAYOUT_FRAGMENTTEXTWRITER);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_toilets, LAYOUT_FRAGMENTTOILETS);
   }
 
   @Override
@@ -68,6 +80,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentActionBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_action is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTBANKS: {
+          if ("layout/fragment_banks_0".equals(tag)) {
+            return new FragmentBanksBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_banks is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTHELPDESK: {
           if ("layout/fragment_help_desk_0".equals(tag)) {
@@ -105,11 +123,23 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for fragment_map is invalid. Received: " + tag);
         }
+        case  LAYOUT_FRAGMENTRESTRO: {
+          if ("layout/fragment_restro_0".equals(tag)) {
+            return new FragmentRestroBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_restro is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTTEXTWRITER: {
           if ("layout/fragment_text_writer_0".equals(tag)) {
             return new FragmentTextWriterBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_text_writer is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTTOILETS: {
+          if ("layout/fragment_toilets_0".equals(tag)) {
+            return new FragmentToiletsBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_toilets is invalid. Received: " + tag);
         }
       }
     }
@@ -164,17 +194,20 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(8);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(11);
 
     static {
       sKeys.put("layout/fragment_action_0", com.google.mlkit.vision.demo.R.layout.fragment_action);
+      sKeys.put("layout/fragment_banks_0", com.google.mlkit.vision.demo.R.layout.fragment_banks);
       sKeys.put("layout/fragment_help_desk_0", com.google.mlkit.vision.demo.R.layout.fragment_help_desk);
       sKeys.put("layout/fragment_home_0", com.google.mlkit.vision.demo.R.layout.fragment_home);
       sKeys.put("layout/fragment_hospitals_0", com.google.mlkit.vision.demo.R.layout.fragment_hospitals);
       sKeys.put("layout/fragment_library_0", com.google.mlkit.vision.demo.R.layout.fragment_library);
       sKeys.put("layout/fragment_malls_0", com.google.mlkit.vision.demo.R.layout.fragment_malls);
       sKeys.put("layout/fragment_map_0", com.google.mlkit.vision.demo.R.layout.fragment_map);
+      sKeys.put("layout/fragment_restro_0", com.google.mlkit.vision.demo.R.layout.fragment_restro);
       sKeys.put("layout/fragment_text_writer_0", com.google.mlkit.vision.demo.R.layout.fragment_text_writer);
+      sKeys.put("layout/fragment_toilets_0", com.google.mlkit.vision.demo.R.layout.fragment_toilets);
     }
   }
 }

@@ -37,6 +37,9 @@
         <action
             android:id="@+id/action_homeFragment_to_restroFragment"
             app:destination="@id/restroFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_toiletsFragment"
+            app:destination="@id/toiletsFragment" />
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
@@ -75,4 +78,8 @@
         android:id="@+id/restroFragment"
         android:name="com.google.mlkit.vision.demo.fragments.RestroFragment"
         android:label="RestroFragment" />
+    <fragment
+        android:id="@+id/toiletsFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.ToiletsFragment"
+        android:label="ToiletsFragment" />
 </navigation>

@@ -8,20 +8,28 @@
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable-mdpi\\ic_switch_camera_white_48dp.xml"
     },
     {
-        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_activity_vision_live_preview.xml.flat",
-        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\activity_vision_live_preview.xml"
-    },
-    {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\font_poppins_black.xml.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\font\\poppins_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_activity_vision_live_preview.xml.flat",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\activity_vision_live_preview.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_go.png.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\go.png"
     },
     {
+        "merged": "com.google.mlkit.vision.demo.app-merged_res-65:/layout_fragment_banks.xml.flat",
+        "source": "com.google.mlkit.vision.demo.app-main-67:/layout/fragment_banks.xml"
+    },
+    {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_india.png.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\india.png"
+    },
+    {
+        "merged": "com.google.mlkit.vision.demo.app-merged_res-65:/layout_fragment_restro.xml.flat",
+        "source": "com.google.mlkit.vision.demo.app-main-67:/layout/fragment_restro.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_otp_block.xml.flat",
@@ -72,12 +80,12 @@
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\navigation.xml"
     },
     {
-        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_ic_baseline_notifications_active_24.xml.flat",
-        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\ic_baseline_notifications_active_24.xml"
-    },
-    {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_wash.xml.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\wash.xml"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_ic_baseline_notifications_active_24.xml.flat",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\ic_baseline_notifications_active_24.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\raw_helping.json.flat",
@@ -398,6 +406,10 @@
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_checklist.png.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\checklist.png"
+    },
+    {
+        "merged": "com.google.mlkit.vision.demo.app-merged_res-65:/layout_fragment_toilets.xml.flat",
+        "source": "com.google.mlkit.vision.demo.app-main-67:/layout/fragment_toilets.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_google.png.flat",
