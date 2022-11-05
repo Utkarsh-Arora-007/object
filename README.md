@@ -6,15 +6,16 @@
 <img align="right" width="100" height="100" src="https://github.com/Shailly0502/Tech-Diwane/blob/c782ca5a86027019f1d2ae484e0fdac4afe6c1e3/content.webp">  
 <ul>  
    <li> <a href="#11"> Provided Problem Statement(Automated Cheque Processing) </a> </li>
-   <li> <a href="#12"> Expected Solution </a> </li>
+   <li> <a href="#12"> Quick Fix By Us </a> </li>
    <li> Proposed Solution </li>
-   <li> <a href="#1"> Demo Vedio </a> </li>
+<!--    <li> <a href="#1"> Demo Vedio </a> </li -->
    <li>  Workflow </li>
-   <ul> <li>  <a href="#2"> Input & Transformation </a> </li>
+   <ul>
+<!--       <li>  <a href="#2"> Input & Transformation </a> </li>
       <li> <a href="#3"> Extraction </a>  </li>
       <li> <a href="#4">Verification </a> </li>
       <li> <a href="#5"> Processing & Diagrametic Representation of Complete Workflow </a> </li> </ul>
-   <li> <a href="#7"> Database </a> </li>
+   <li> <a href="#7"> Database </a> </li> -->
    <li> <a href="#8"> Features </a> </li>
    <li> <a href="#9"> How to use our code? </a> </li>
 <li> <a href="#10"> Contributors </a> </li> </ul>
