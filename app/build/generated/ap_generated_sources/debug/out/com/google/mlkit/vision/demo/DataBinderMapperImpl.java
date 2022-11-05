@@ -9,6 +9,8 @@ import androidx.databinding.ViewDataBinding;
 import com.google.mlkit.vision.demo.databinding.FragmentActionBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentHelpDeskBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentHomeBindingImpl;
+import com.google.mlkit.vision.demo.databinding.FragmentHospitalsBindingImpl;
+import com.google.mlkit.vision.demo.databinding.FragmentLibraryBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentMallsBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentMapBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentTextWriterBindingImpl;
@@ -29,18 +31,24 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTHOME = 3;
 
-  private static final int LAYOUT_FRAGMENTMALLS = 4;
+  private static final int LAYOUT_FRAGMENTHOSPITALS = 4;
 
-  private static final int LAYOUT_FRAGMENTMAP = 5;
+  private static final int LAYOUT_FRAGMENTLIBRARY = 5;
 
-  private static final int LAYOUT_FRAGMENTTEXTWRITER = 6;
+  private static final int LAYOUT_FRAGMENTMALLS = 6;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(6);
+  private static final int LAYOUT_FRAGMENTMAP = 7;
+
+  private static final int LAYOUT_FRAGMENTTEXTWRITER = 8;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(8);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_action, LAYOUT_FRAGMENTACTION);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_help_desk, LAYOUT_FRAGMENTHELPDESK);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_home, LAYOUT_FRAGMENTHOME);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_hospitals, LAYOUT_FRAGMENTHOSPITALS);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_library, LAYOUT_FRAGMENTLIBRARY);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_malls, LAYOUT_FRAGMENTMALLS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_map, LAYOUT_FRAGMENTMAP);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_text_writer, LAYOUT_FRAGMENTTEXTWRITER);
@@ -72,6 +80,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentHomeBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_home is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTHOSPITALS: {
+          if ("layout/fragment_hospitals_0".equals(tag)) {
+            return new FragmentHospitalsBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_hospitals is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTLIBRARY: {
+          if ("layout/fragment_library_0".equals(tag)) {
+            return new FragmentLibraryBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_library is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTMALLS: {
           if ("layout/fragment_malls_0".equals(tag)) {
@@ -144,12 +164,14 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(6);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(8);
 
     static {
       sKeys.put("layout/fragment_action_0", com.google.mlkit.vision.demo.R.layout.fragment_action);
       sKeys.put("layout/fragment_help_desk_0", com.google.mlkit.vision.demo.R.layout.fragment_help_desk);
       sKeys.put("layout/fragment_home_0", com.google.mlkit.vision.demo.R.layout.fragment_home);
+      sKeys.put("layout/fragment_hospitals_0", com.google.mlkit.vision.demo.R.layout.fragment_hospitals);
+      sKeys.put("layout/fragment_library_0", com.google.mlkit.vision.demo.R.layout.fragment_library);
       sKeys.put("layout/fragment_malls_0", com.google.mlkit.vision.demo.R.layout.fragment_malls);
       sKeys.put("layout/fragment_map_0", com.google.mlkit.vision.demo.R.layout.fragment_map);
       sKeys.put("layout/fragment_text_writer_0", com.google.mlkit.vision.demo.R.layout.fragment_text_writer);

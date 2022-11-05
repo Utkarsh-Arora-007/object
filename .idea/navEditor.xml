@@ -37,8 +37,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-345" />
-                            <option name="y" value="73" />
+                            <option name="x" value="-549" />
+                            <option name="y" value="246" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -49,6 +49,16 @@
                               </value>
                             </entry>
                             <entry key="action_homeFragment_to_helpDeskFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_homeFragment_to_hospitalsFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_homeFragment_to_libraryFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -69,6 +79,30 @@
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="hospitalsFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="7" />
+                            <option name="y" value="88" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="libraryFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-291" />
+                            <option name="y" value="522" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

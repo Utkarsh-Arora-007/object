@@ -56,10 +56,6 @@
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\circular_background.xml"
     },
     {
-        "merged": "com.google.mlkit.vision.demo.app-merged_res-65:/layout_recitemview.xml.flat",
-        "source": "com.google.mlkit.vision.demo.app-main-67:/layout/recitemview.xml"
-    },
-    {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_activity_chooser.xml.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\activity_chooser.xml"
     },
@@ -76,12 +72,12 @@
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\navigation.xml"
     },
     {
-        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_wash.xml.flat",
-        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\wash.xml"
-    },
-    {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_ic_baseline_notifications_active_24.xml.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\ic_baseline_notifications_active_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_wash.xml.flat",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\wash.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\raw_helping.json.flat",
@@ -94,6 +90,10 @@
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_fragment_library.xml.flat",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_library.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_logo_mlkit.xml.flat",
@@ -168,10 +168,6 @@
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\spinner_style.xml"
     },
     {
-        "merged": "com.google.mlkit.vision.demo.app-merged_res-65:/layout_fragment_malls.xml.flat",
-        "source": "com.google.mlkit.vision.demo.app-main-67:/layout/fragment_malls.xml"
-    },
-    {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_ic_baseline_health_and_safety_24.xml.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\ic_baseline_health_and_safety_24.xml"
     },
@@ -194,6 +190,10 @@
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_settings_style.xml.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\settings_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_fragment_hospitals.xml.flat",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_hospitals.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_thing.png.flat",
@@ -230,6 +230,10 @@
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_activity_still_image.xml.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\activity_still_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_fragment_malls.xml.flat",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_malls.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable-hdpi_ic_switch_camera_white_48dp_inset.png.flat",
@@ -462,6 +466,10 @@
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\drawable_hungry.png.flat",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\drawable\\hungry.png"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_recitemview.xml.flat",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\recitemview.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-merged_res-65:\\layout_activity_vision_camerax_live_preview.xml.flat",

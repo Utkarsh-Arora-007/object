@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_homeFragment_to_hospitalsFragment"
             app:destination="@id/hospitalsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
@@ -54,4 +57,8 @@
         android:id="@+id/hospitalsFragment"
         android:name="com.google.mlkit.vision.demo.fragments.HospitalsFragment"
         android:label="HospitalsFragment" />
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.LibraryFragment"
+        android:label="LibraryFragment" />
 </navigation>

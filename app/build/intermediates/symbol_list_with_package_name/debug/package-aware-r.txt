@@ -2788,6 +2788,8 @@ id action_context_bar
 id action_divider
 id action_homeFragment_to_actionFragment
 id action_homeFragment_to_helpDeskFragment
+id action_homeFragment_to_hospitalsFragment
+id action_homeFragment_to_libraryFragment
 id action_homeFragment_to_mallsFragment
 id action_homeFragment_to_mapFragment
 id action_homeFragment_to_textWriterFragment
@@ -2998,6 +3000,8 @@ id homeAsUp
 id homeFragment
 id honorRequest
 id hospital
+id hospitalsFragment
+id hospitals_recyclerView
 id hospitalscard
 id hybrid
 id icon
@@ -3022,6 +3026,8 @@ id layout
 id left
 id leftToRight
 id library
+id libraryFragment
+id library_recyclerView
 id librarycard
 id light
 id line1
@@ -3451,6 +3457,8 @@ layout design_text_input_start_icon
 layout fragment_action
 layout fragment_help_desk
 layout fragment_home
+layout fragment_hospitals
+layout fragment_library
 layout fragment_malls
 layout fragment_map
 layout fragment_text_writer

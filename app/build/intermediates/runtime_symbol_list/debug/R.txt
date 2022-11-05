@@ -2787,6 +2787,8 @@ int id action_context_bar 0x7f0a0048
 int id action_divider 0x7f0a0049
 int id action_homeFragment_to_actionFragment 0x7f0a004a
 int id action_homeFragment_to_helpDeskFragment 0x7f0a004b
+int id action_homeFragment_to_hospitalsFragment 0x7f0a026f
+int id action_homeFragment_to_libraryFragment 0x7f0a0273
 int id action_homeFragment_to_mallsFragment 0x7f0a0264
 int id action_homeFragment_to_mapFragment 0x7f0a004c
 int id action_homeFragment_to_textWriterFragment 0x7f0a004d
@@ -2997,6 +2999,8 @@ int id homeAsUp 0x7f0a0117
 int id homeFragment 0x7f0a0118
 int id honorRequest 0x7f0a0119
 int id hospital 0x7f0a011a
+int id hospitalsFragment 0x7f0a0270
+int id hospitals_recyclerView 0x7f0a0271
 int id hospitalscard 0x7f0a011b
 int id hybrid 0x7f0a011c
 int id icon 0x7f0a011d
@@ -3021,6 +3025,8 @@ int id layout 0x7f0a012f
 int id left 0x7f0a0130
 int id leftToRight 0x7f0a0131
 int id library 0x7f0a0132
+int id libraryFragment 0x7f0a0274
+int id library_recyclerView 0x7f0a0272
 int id librarycard 0x7f0a0133
 int id light 0x7f0a0134
 int id line1 0x7f0a0135
@@ -3450,6 +3456,8 @@ int layout design_text_input_start_icon 0x7f0d0035
 int layout fragment_action 0x7f0d0036
 int layout fragment_help_desk 0x7f0d0037
 int layout fragment_home 0x7f0d0038
+int layout fragment_hospitals 0x7f0d008b
+int layout fragment_library 0x7f0d008c
 int layout fragment_malls 0x7f0d0089
 int layout fragment_map 0x7f0d0039
 int layout fragment_text_writer 0x7f0d003a
