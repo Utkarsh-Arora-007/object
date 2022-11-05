@@ -80,5 +80,17 @@ class HomeFragment : Fragment() {
         binding.help.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_addHelpFragment)
         }
+        binding.goiExplore.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_ministryOfDisabledWebViewFragment)
+        }
+        binding.crutchy.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_crutchFragment)
+        }
+        binding.wheely.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_wheelChairFragment)
+        }
+        binding.helpuuu.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_helperFragment)
+        }
     }
 }

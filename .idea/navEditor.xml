@@ -20,6 +20,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="addHelpFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-1027" />
+                            <option name="y" value="178" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="banksFragment">
                     <value>
                       <LayoutPositions>
@@ -27,6 +39,18 @@
                           <Point>
                             <option name="x" value="-360" />
                             <option name="y" value="-158" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="crutchFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-659" />
+                            <option name="y" value="527" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -60,7 +84,17 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="action_homeFragment_to_addHelpFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_homeFragment_to_banksFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_homeFragment_to_crutchFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -90,6 +124,11 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="action_homeFragment_to_ministryOfDisabledWebViewFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_homeFragment_to_restroFragment">
                               <value>
                                 <LayoutPositions />
@@ -101,6 +140,11 @@
                               </value>
                             </entry>
                             <entry key="action_homeFragment_to_toiletsFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_homeFragment_to_wheelChairFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -158,6 +202,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="ministryOfDisabledWebViewFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-880" />
+                            <option name="y" value="494" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="restroFragment">
                     <value>
                       <LayoutPositions>
@@ -189,6 +245,18 @@
                           <Point>
                             <option name="x" value="-922" />
                             <option name="y" value="-144" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="wheelChairFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="274" />
+                            <option name="y" value="301" />
                           </Point>
                         </option>
                       </LayoutPositions>

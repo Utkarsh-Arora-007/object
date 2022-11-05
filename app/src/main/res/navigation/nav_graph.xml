@@ -43,6 +43,18 @@
         <action
             android:id="@+id/action_homeFragment_to_addHelpFragment"
             app:destination="@id/addHelpFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_ministryOfDisabledWebViewFragment"
+            app:destination="@id/ministryOfDisabledWebViewFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_crutchFragment"
+            app:destination="@id/crutchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_wheelChairFragment"
+            app:destination="@id/wheelChairFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_helperFragment"
+            app:destination="@id/helperFragment" />
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
@@ -89,4 +101,20 @@
         android:id="@+id/addHelpFragment"
         android:name="com.google.mlkit.vision.demo.fragments.AddHelpFragment"
         android:label="AddHelpFragment" />
+    <fragment
+        android:id="@+id/ministryOfDisabledWebViewFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.MinistryOfDisabledWebViewFragment"
+        android:label="MinistryOfDisabledWebViewFragment" />
+    <fragment
+        android:id="@+id/crutchFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.CrutchFragment"
+        android:label="CrutchFragment" />
+    <fragment
+        android:id="@+id/wheelChairFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.WheelChairFragment"
+        android:label="WheelChairFragment" />
+    <fragment
+        android:id="@+id/helperFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.HelperFragment"
+        android:label="HelperFragment" />
 </navigation>
