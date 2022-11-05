@@ -60,6 +60,11 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="action_homeFragment_to_banksFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_homeFragment_to_helpDeskFragment">
                               <value>
                                 <LayoutPositions />
@@ -138,6 +143,18 @@
                           <Point>
                             <option name="x" value="-595" />
                             <option name="y" value="-159" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="restroFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-1095" />
+                            <option name="y" value="-183" />
                           </Point>
                         </option>
                       </LayoutPositions>

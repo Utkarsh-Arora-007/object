@@ -34,6 +34,9 @@
         <action
             android:id="@+id/action_homeFragment_to_banksFragment"
             app:destination="@id/banksFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_restroFragment"
+            app:destination="@id/restroFragment" />
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
@@ -68,4 +71,8 @@
         android:id="@+id/banksFragment"
         android:name="com.google.mlkit.vision.demo.fragments.BanksFragment"
         android:label="BanksFragment" />
+    <fragment
+        android:id="@+id/restroFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.RestroFragment"
+        android:label="RestroFragment" />
 </navigation>

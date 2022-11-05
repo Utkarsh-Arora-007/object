@@ -70,5 +70,9 @@ class HomeFragment : Fragment() {
         binding.bankscard.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_banksFragment)
         }
+        binding.restaurantcard.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_restroFragment)
+        }
+
     }
 }
