@@ -2800,6 +2800,7 @@ id action_homeFragment_to_ministryOfDisabledWebViewFragment
 id action_homeFragment_to_restroFragment
 id action_homeFragment_to_textWriterFragment
 id action_homeFragment_to_toiletsFragment
+id action_homeFragment_to_wannaHelpFragment
 id action_homeFragment_to_wheelChairFragment
 id action_image
 id action_menu_divider
@@ -2820,6 +2821,7 @@ id alertTitle
 id aligned
 id all
 id always
+id amountEdit
 id android_pay
 id android_pay_dark
 id android_pay_light
@@ -2967,6 +2969,7 @@ id fillStart
 id fill_horizontal
 id fill_vertical
 id filled
+id filledTextField
 id fitCenter
 id fitEnd
 id fitStart
@@ -3059,6 +3062,7 @@ id locatenow
 id location
 id logo_only
 id lottie_layer_name
+id lottie_otp
 id lottiee
 id ltr
 id mall
@@ -3165,6 +3169,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id payBtn
 id peekHeight
 id percent
 id pin
@@ -3355,6 +3360,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id wannaHelpFragment
 id webview
 id welcometxt
 id wheelChairFragment
@@ -3496,6 +3502,7 @@ layout fragment_ministry_of_disabled_web_view
 layout fragment_restro
 layout fragment_text_writer
 layout fragment_toilets
+layout fragment_wanna_help
 layout fragment_wheel_chair
 layout helpdesk_recview_item
 layout m3_alert_dialog

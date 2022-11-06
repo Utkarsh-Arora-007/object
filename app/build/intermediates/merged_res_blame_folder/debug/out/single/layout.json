@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_ministry_of_disabled_web_view.xml",
-        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_ministry_of_disabled_web_view.xml"
-    },
-    {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_help_desk.xml",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_help_desk.xml"
+    },
+    {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_ministry_of_disabled_web_view.xml",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_ministry_of_disabled_web_view.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_malls.xml",
@@ -24,6 +24,10 @@
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_add_help.xml"
     },
     {
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_helper.xml",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_helper.xml"
+    },
+    {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_text_writer.xml",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_text_writer.xml"
     },
@@ -40,16 +44,12 @@
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_crutch.xml"
     },
     {
-        "merged": "com.google.mlkit.vision.demo.app-mergeDebugResources-64:/layout/fragment_helper.xml",
-        "source": "com.google.mlkit.vision.demo.app-main-67:/layout/fragment_helper.xml"
+        "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_wheel_chair.xml",
+        "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_wheel_chair.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_library.xml",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_library.xml"
-    },
-    {
-        "merged": "com.google.mlkit.vision.demo.app-mergeDebugResources-64:/layout/fragment_wheel_chair.xml",
-        "source": "com.google.mlkit.vision.demo.app-main-67:/layout/fragment_wheel_chair.xml"
     },
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_action.xml",
@@ -62,5 +62,9 @@
     {
         "merged": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-mergeDebugResources-64:\\layout\\fragment_toilets.xml",
         "source": "C:\\Users\\enduangi\\.gradle\\daemon\\7.4\\com.google.mlkit.vision.demo.app-main-67:\\layout\\fragment_toilets.xml"
+    },
+    {
+        "merged": "com.google.mlkit.vision.demo.app-mergeDebugResources-64:/layout/fragment_wanna_help.xml",
+        "source": "com.google.mlkit.vision.demo.app-main-67:/layout/fragment_wanna_help.xml"
     }
 ]

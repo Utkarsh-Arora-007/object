@@ -92,5 +92,8 @@ class HomeFragment : Fragment() {
         binding.helpuuu.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_helperFragment)
         }
+        binding.donatecard.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_wannaHelpFragment)
+        }
     }
 }

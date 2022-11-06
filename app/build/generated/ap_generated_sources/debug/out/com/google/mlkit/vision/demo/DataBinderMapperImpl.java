@@ -21,6 +21,7 @@ import com.google.mlkit.vision.demo.databinding.FragmentMinistryOfDisabledWebVie
 import com.google.mlkit.vision.demo.databinding.FragmentRestroBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentTextWriterBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentToiletsBindingImpl;
+import com.google.mlkit.vision.demo.databinding.FragmentWannaHelpBindingImpl;
 import com.google.mlkit.vision.demo.databinding.FragmentWheelChairBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -63,9 +64,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTTOILETS = 15;
 
-  private static final int LAYOUT_FRAGMENTWHEELCHAIR = 16;
+  private static final int LAYOUT_FRAGMENTWANNAHELP = 16;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(16);
+  private static final int LAYOUT_FRAGMENTWHEELCHAIR = 17;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(17);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_action, LAYOUT_FRAGMENTACTION);
@@ -83,6 +86,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_restro, LAYOUT_FRAGMENTRESTRO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_text_writer, LAYOUT_FRAGMENTTEXTWRITER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_toilets, LAYOUT_FRAGMENTTOILETS);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_wanna_help, LAYOUT_FRAGMENTWANNAHELP);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.google.mlkit.vision.demo.R.layout.fragment_wheel_chair, LAYOUT_FRAGMENTWHEELCHAIR);
   }
 
@@ -185,6 +189,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for fragment_toilets is invalid. Received: " + tag);
         }
+        case  LAYOUT_FRAGMENTWANNAHELP: {
+          if ("layout/fragment_wanna_help_0".equals(tag)) {
+            return new FragmentWannaHelpBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_wanna_help is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTWHEELCHAIR: {
           if ("layout/fragment_wheel_chair_0".equals(tag)) {
             return new FragmentWheelChairBindingImpl(component, view);
@@ -244,7 +254,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(16);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(17);
 
     static {
       sKeys.put("layout/fragment_action_0", com.google.mlkit.vision.demo.R.layout.fragment_action);
@@ -262,6 +272,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/fragment_restro_0", com.google.mlkit.vision.demo.R.layout.fragment_restro);
       sKeys.put("layout/fragment_text_writer_0", com.google.mlkit.vision.demo.R.layout.fragment_text_writer);
       sKeys.put("layout/fragment_toilets_0", com.google.mlkit.vision.demo.R.layout.fragment_toilets);
+      sKeys.put("layout/fragment_wanna_help_0", com.google.mlkit.vision.demo.R.layout.fragment_wanna_help);
       sKeys.put("layout/fragment_wheel_chair_0", com.google.mlkit.vision.demo.R.layout.fragment_wheel_chair);
     }
   }

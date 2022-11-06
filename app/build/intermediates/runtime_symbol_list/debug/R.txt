@@ -2799,6 +2799,7 @@ int id action_homeFragment_to_ministryOfDisabledWebViewFragment 0x7f0a0053
 int id action_homeFragment_to_restroFragment 0x7f0a0054
 int id action_homeFragment_to_textWriterFragment 0x7f0a0055
 int id action_homeFragment_to_toiletsFragment 0x7f0a0056
+int id action_homeFragment_to_wannaHelpFragment 0x7f0a0290
 int id action_homeFragment_to_wheelChairFragment 0x7f0a028d
 int id action_image 0x7f0a0057
 int id action_menu_divider 0x7f0a0058
@@ -2819,6 +2820,7 @@ int id alertTitle 0x7f0a0066
 int id aligned 0x7f0a0067
 int id all 0x7f0a0068
 int id always 0x7f0a0069
+int id amountEdit 0x7f0a0291
 int id android_pay 0x7f0a006a
 int id android_pay_dark 0x7f0a006b
 int id android_pay_light 0x7f0a006c
@@ -2966,6 +2968,7 @@ int id fillStart 0x7f0a00f9
 int id fill_horizontal 0x7f0a00fa
 int id fill_vertical 0x7f0a00fb
 int id filled 0x7f0a00fc
+int id filledTextField 0x7f0a0292
 int id fitCenter 0x7f0a00fd
 int id fitEnd 0x7f0a00fe
 int id fitStart 0x7f0a00ff
@@ -3058,6 +3061,7 @@ int id locatenow 0x7f0a0154
 int id location 0x7f0a0155
 int id logo_only 0x7f0a0156
 int id lottie_layer_name 0x7f0a0157
+int id lottie_otp 0x7f0a0293
 int id lottiee 0x7f0a0158
 int id ltr 0x7f0a0159
 int id mall 0x7f0a015a
@@ -3164,6 +3168,7 @@ int id parent_matrix 0x7f0a01be
 int id password_toggle 0x7f0a01bf
 int id path 0x7f0a01c0
 int id pathRelative 0x7f0a01c1
+int id payBtn 0x7f0a0294
 int id peekHeight 0x7f0a01c2
 int id percent 0x7f0a01c3
 int id pin 0x7f0a01c4
@@ -3354,6 +3359,7 @@ int id view_tree_saved_state_registry_owner 0x7f0a027c
 int id view_tree_view_model_store_owner 0x7f0a027d
 int id visible 0x7f0a027e
 int id visible_removing_fragment_view_tag 0x7f0a027f
+int id wannaHelpFragment 0x7f0a0295
 int id webview 0x7f0a0280
 int id welcometxt 0x7f0a0281
 int id wheelChairFragment 0x7f0a028f
@@ -3495,6 +3501,7 @@ int layout fragment_ministry_of_disabled_web_view 0x7f0d0040
 int layout fragment_restro 0x7f0d0041
 int layout fragment_text_writer 0x7f0d0042
 int layout fragment_toilets 0x7f0d0043
+int layout fragment_wanna_help 0x7f0d0095
 int layout fragment_wheel_chair 0x7f0d0094
 int layout helpdesk_recview_item 0x7f0d0044
 int layout m3_alert_dialog 0x7f0d0045

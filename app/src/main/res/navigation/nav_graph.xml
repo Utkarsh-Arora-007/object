@@ -55,6 +55,9 @@
         <action
             android:id="@+id/action_homeFragment_to_helperFragment"
             app:destination="@id/helperFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_wannaHelpFragment"
+            app:destination="@id/wannaHelpFragment" />
     </fragment>
     <fragment
         android:id="@+id/mapFragment"
@@ -117,4 +120,8 @@
         android:id="@+id/helperFragment"
         android:name="com.google.mlkit.vision.demo.fragments.HelperFragment"
         android:label="HelperFragment" />
+    <fragment
+        android:id="@+id/wannaHelpFragment"
+        android:name="com.google.mlkit.vision.demo.fragments.WannaHelpFragment"
+        android:label="WannaHelpFragment" />
 </navigation>

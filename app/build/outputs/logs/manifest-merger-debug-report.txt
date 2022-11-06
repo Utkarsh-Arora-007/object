@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-120:12
+ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-146:12
 MERGED from [androidx.databinding:databinding-adapters:7.3.0] C:\Users\enduangi\.gradle\caches\transforms-3\dd5c952e7595a578fb45d5b5555324d3\transformed\databinding-adapters-7.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-ktx:7.3.0] C:\Users\enduangi\.gradle\caches\transforms-3\de3fbb6063a811ded2bd81bbac3fa949\transformed\jetified-databinding-ktx-7.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-runtime:7.3.0] C:\Users\enduangi\.gradle\caches\transforms-3\2a71051d54a7dc7a150f4be18e08281a\transformed\databinding-runtime-7.3.0\AndroidManifest.xml:2:1-9:12
@@ -143,22 +143,22 @@ MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\enduangi\.gradle\caches\tran
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\enduangi\.gradle\caches\transforms-3\0f0adc36ae2e9d1cb1547196f8609e36\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\enduangi\.gradle\caches\transforms-3\bdd977c2a78376bf791edfc352f73598\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\enduangi\.gradle\caches\transforms-3\7b444b872ed84293bd0a3b2f95effaca\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-120:12
-INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-120:12
+INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-146:12
+INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-146:12
 	package
 		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:4:5-43
 		INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml
 		INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml
-		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-120:12
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-146:12
 		INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml
-		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-120:12
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:1-146:12
 		INJECTED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:2:11-69
@@ -519,7 +519,7 @@ ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:26:13-73
 	android:name
 		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:26:21-70
 application
-ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:30:5-118:19
+ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:30:5-144:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\enduangi\.gradle\caches\transforms-3\666bd7e0df56e1c50fa3f2adeaed37f5\transformed\jetified-firebase-database-ktx-20.1.0\AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\enduangi\.gradle\caches\transforms-3\666bd7e0df56e1c50fa3f2adeaed37f5\transformed\jetified-firebase-database-ktx-20.1.0\AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\enduangi\.gradle\caches\transforms-3\cdc87f4499980ec3bbe0a56b5b4c23e4\transformed\jetified-firebase-auth-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
@@ -778,6 +778,46 @@ ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:115:9-11
 		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:117:13-37
 	android:name
 		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:116:13-56
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:121:9-127:20
+MERGED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:40:9-46:20
+MERGED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:40:9-46:20
+	android:exported
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:121:19-63
+intent-filter#action:name:rzp.device_token.share
+ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:124:13-126:29
+action#rzp.device_token.share
+ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:125:17-64
+	android:name
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:125:25-62
+meta-data#com.razorpay.ApiKey
+ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:128:9-130:55
+	android:value
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:130:13-53
+	android:name
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:129:13-47
+activity#com.razorpay.CheckoutActivity
+ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:131:9-143:20
+MERGED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:48:9-60:20
+MERGED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:48:9-60:20
+	android:exported
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:133:13-36
+	android:configChanges
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:132:13-83
+	android:theme
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:134:13-49
+	android:name
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:131:19-63
+intent-filter#action:name:android.intent.action.MAIN+data:host:rzp.io+data:scheme:io.rzp
+ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:136:13-141:29
+data
+ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:138:17-140:46
+	android:host
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:139:21-42
+	android:scheme
+		ADDED from E:\vision\vision-quickstart\app\src\main\AndroidManifest.xml:140:21-44
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\enduangi\.gradle\caches\transforms-3\666bd7e0df56e1c50fa3f2adeaed37f5\transformed\jetified-firebase-database-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\enduangi\.gradle\caches\transforms-3\cdc87f4499980ec3bbe0a56b5b4c23e4\transformed\jetified-firebase-auth-ktx-21.1.0\AndroidManifest.xml:8:9-14:19
@@ -920,12 +960,6 @@ action#android.intent.action.VIEW
 ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:13:13-65
 	android:name
 		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:13:21-62
-data
-ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:15:13-17:38
-	android:scheme
-		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:17:17-35
-	android:mimeType
-		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:16:17-39
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:pay+data:mimeType:*/*+data:scheme:upi
 ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:19:9-28:18
 category#android.intent.category.BROWSABLE
@@ -940,30 +974,6 @@ action#android.intent.action.SEND
 ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:33:13-65
 	android:name
 		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:33:21-62
-receiver#com.razorpay.RzpTokenReceiver
-ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:40:9-46:20
-	android:exported
-		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:42:13-37
-	android:name
-		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:41:13-57
-intent-filter#action:name:rzp.device_token.share
-ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:43:13-45:29
-action#rzp.device_token.share
-ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:44:17-65
-	android:name
-		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:44:25-62
-activity#com.razorpay.CheckoutActivity
-ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:48:9-60:20
-	android:exported
-		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:51:13-36
-	android:configChanges
-		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:50:13-83
-	android:theme
-		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:52:13-49
-	android:name
-		ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:49:13-57
-intent-filter#action:name:android.intent.action.MAIN+data:host:rzp.io+data:scheme:io.rzp
-ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:53:13-59:29
 meta-data#com.razorpay.plugin.googlepay_all
 ADDED from [com.razorpay:checkout:1.6.18] C:\Users\enduangi\.gradle\caches\transforms-3\123c9bd840b850751ab352f0cbbdc0a5\transformed\jetified-checkout-1.6.18\AndroidManifest.xml:62:9-64:58
 	android:value
