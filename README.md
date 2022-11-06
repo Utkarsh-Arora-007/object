@@ -46,13 +46,13 @@ Today a disabled person is unable to browse and identify nearby locations having
 
    <img align="right" width="100" height="100" src="https://github.com/Shailly0502/Tech-Diwane/blob/c782ca5a86027019f1d2ae484e0fdac4afe6c1e3/howtousecode.jpg"> 
    <ul> 
-      <li>* Firstly fork the repo and clone the repository in your local system</li>
-      <li>* Open cloned directory in your Android Studio</li>
-      <li>* Wait for few minutes untill all required files are completely indexed correctly</li>
-      <li>* Enable the USB debugging from developer settings in your android device</li>
-      <li>* Connect your device with your local system, wait untill Android studio detect your phone</li>
-      <li*>CLick on RUN button</li>
-      <li>*Hurray!!!! your app is installing</li>
+      <li>Firstly fork the repo and clone the repository in your local system</li>
+      <li>Open cloned directory in your Android Studio</li>
+      <li>Wait for few minutes untill all required files are completely indexed correctly</li>
+      <li>Enable the USB debugging from developer settings in your android device</li>
+      <li>Connect your device with your local system, wait untill Android studio detect your phone</li>
+      <li>CLick on RUN button</li>
+      <li>Hurray!!!! your app is installing</li>
       </ul>
 </a>
 
