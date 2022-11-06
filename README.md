@@ -51,7 +51,7 @@ Today a disabled person is unable to browse and identify nearby locations having
       <li>Wait for few minutes untill all required files are completely indexed correctly</li>
       <li>Enable the USB debugging from developer settings in your android device</li>
       <li>Connect your device with your local system, wait untill Android studio detect your phone</li>
-      <li>CLick on RUN button</li>
+      <li>Click on RUN button</li>
       <li>Hurray!!!! your app is installing</li>
       </ul>
 </a>
